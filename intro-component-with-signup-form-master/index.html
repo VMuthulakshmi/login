@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="check.js"></script>
+  </script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="id1">
+    <p><span style="font-weight: 700;font-size:xxx-large;display: inline;">Learn to code by watching others</span><br>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>  
+  </div>
+  <div class="id2">
+    <div class="blue_box"><br>
+      <strong>Try it free 7 days</strong><br>then $20/mo. thereafter<br>
+    </div>
+    <div class="form_style" id="my_form" onsubmit="return(check());">
+      <form>
+        <input type="text" id="fName" name="fName" placeholder="First Name" ><br><br><div id="errorfname"></div>
+        <input type="text" id="lName" name="lName" placeholder="Last Name" ><br><br><div id="errorlname"></div>
+        <input type="text" id="email" name="Email" placeholder="Email" ><br><br><div id="erroremail"></div>
+        <input type="password" id="pwd" name="Password" placeholder="Password" ><br><br><div id="errorpwd"></div>
+        <input type="submit" id="submit" value="Claim your free trial ">
+       
+        <footer>
+          <p class="attribution">
+           By clicking the button, you are agreeing to our<span style="color: red;">Terms and Services</span> 
+          </p>
+        </footer>
+    </form>
+    </div>
+  </div>
+
+
+
+<!---
+<div class='id1'>
+  
+  <p><span style="font-family: Arial, Helvetica, sans-serif;font-size: larger;">Learn to code by watching others</span><br>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+    but understanding how developers think is invaluable. </p>
+</div>
+<div class='id2'>
+  <div class='blue_box'>Try it free 7 days then $20/mo. thereafter </div>
+   
+  <div id="form_style">
+    <form>
+      <input type="text" id="fName" name="fName" placeholder="First Name" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+      <input type="text" id="lName" name="lName" placeholder="Last Name" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+      <input type="text" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+      <input type="submit" value="Claim your free trial ">
+     
+      <footer>
+        <p class="attribution">
+          Claim your free trial By clicking the button, you are agreeing to our Terms and Services
+        </p>
+      </footer>
+  </form>
+  </div>
+</div>
+  
+  Last Name 
+  Email Address
+  Password
+
+ 
+  
+</div>
+
+  <footer id="footer">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    
+    </p>
+  </footer>-->
+  </div>
+</body>
+</html>
